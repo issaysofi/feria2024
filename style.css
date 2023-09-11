@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 10vh; /*Viewport height = toma el tamaño de la pantalla completa*/
+    background-color: ;
+    display: flex;
+}
+nav .logo{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 20px;
+}
+nav .links{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav .links a{
+    text-decoration: none;
+    color: rgb(160, 159, 159);
+}
+.title{
+    height: 10vh;
+}
+.title h1{
+    text-transform: uppercase;
+    columns: rgb(17, 17, 167);
+}
+.main{
+    height: 50vh;
+    background-color: blue;
+    display: flex;
+}
+.main .image{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(160, 159, 159);
+}
+.main .image img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    width: 50%;
+    height: 100%;
+    background-color: palegreen;
+}
+.comments{
+    height: 30vh;
+    background-color: aquamarine;
+    display: flex;
+}
+.box{
+    width: 50%;
+    height: 100%;
+    background-color: peru;
+    margin-left: 10px;
+}
